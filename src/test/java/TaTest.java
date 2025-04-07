@@ -18,7 +18,7 @@ public class TaTest {
         for (int i = 1; i <= testCount; i++) {
             int x = inputList.get(i);
             int result = 0;
-            for (int j = 0; j < 8; i++) {
+            for (int j = 0; j < 8; j++) {
                 int nibble = (x >>> (j * 4)) & 0xF;
                 result |= nibble << ((7 - j) * 4);
             }
