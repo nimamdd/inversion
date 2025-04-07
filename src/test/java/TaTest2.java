@@ -15,7 +15,7 @@ public class TaTest2 {
         StringBuilder sb = new StringBuilder();
         int testCount = inputList.get(0);
 
-        for (int i=0;i<testCount;i++){
+        for (int i=1;i<=testCount;i++){
             int x = inputList.get(i);
             int result = 0;
             for (int j = 0; i < 8; i++) {
